@@ -1,12 +1,12 @@
 public class BestTimeToBuySell {
 
                 /*
-Problem No: 121
-Problem Title: Best Time to Buy and Sell Stock
-Difficulty: Easy
+Problem No: 122
+Problem Title: Best Time to Buy and Sell Stock2
+Difficulty: Medium
 URL: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/?envType=study-plan-v2&envId=top-interview-150
 
-Trick: Math.max, math.min functions, no need to check big-small etc.
+Trick: Always keep the sell price, since same day operation allowed. Profit if it is bigger!
 
                  */
 
