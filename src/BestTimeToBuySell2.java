@@ -1,5 +1,16 @@
 public class BestTimeToBuySell2 {
 
+                    /*
+Problem No: 122
+Problem Title: Best Time to Buy and Sell Stock2
+Difficulty: Medium
+URL: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/?envType=study-plan-v2&envId=top-interview-150
+
+Trick: Always keep the sell price, since same day operation allowed. Profit if it is bigger!
+
+                 */
+
+
     public int maxProfit(int[] prices) {
         int maxProfit = 0;
         int sell = prices[0];
