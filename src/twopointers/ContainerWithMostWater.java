@@ -16,9 +16,7 @@ Trick: Two Pointer start, end shift the small one.
         int max = 0;
         int first = 0;
         int second = height.length - 1;
-
         while (first < second) {
-
             int w = second - first;
             int h = Math.min(height[second], height[first]);
             max = Math.max(max, h * w);
@@ -28,17 +26,14 @@ Trick: Two Pointer start, end shift the small one.
             } else {
                 first++;
             }
-
         }
-
-
         return max;
     }
 
 
     public static void main(String[] args) {
         ContainerWithMostWater cwmw = new ContainerWithMostWater();
-        int [] height = {1,1,2};
+        int[] height = {1, 1, 2};
 
         System.out.println(cwmw.maxArea(height));
     }
