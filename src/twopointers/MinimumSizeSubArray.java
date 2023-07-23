@@ -11,7 +11,7 @@ public class MinimumSizeSubArray {
 
     Difficulty: Medium
     URL: https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=study-plan-v2&envId=top-interview-150
-    Trick: two pointer, if sum > target, while loop and substrack first pointer. important key is flow!!
+    Trick: two pointer, if sum > target, while loop and sub. first pointer. important key is flow!!
 
     todo: do it again
     */
