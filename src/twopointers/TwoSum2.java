@@ -31,7 +31,6 @@ public class TwoSum2 {
                 arr[1] = end+1;
                 break;
             }
-
         }
 
         return arr;
