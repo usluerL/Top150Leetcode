@@ -2,11 +2,6 @@ package hm;
 
 import java.util.Map;
 
-
-
-
-public class RomanToInteger {
-
                                 /*
 Problem No: 13
 Problem Title:  RomanToInteger
@@ -17,6 +12,11 @@ URL: https://leetcode.com/problems/roman-to-integer/
 Trick: c < next -> -c  //find a general case.
 
                  */
+
+
+public class RomanToInteger {
+
+
 
     public int romanToInt(String s) {
 
