@@ -17,6 +17,8 @@ Trick:  >>i  ---- <<31-i in order to reverse.
 
 public class ReverseBits {
 
+
+
     public int reverseBits(int n) {
        int res = 0;
         for (int i = 0; i <32 ; i++) {
