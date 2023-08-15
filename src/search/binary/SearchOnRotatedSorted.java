@@ -55,7 +55,7 @@ public class SearchOnRotatedSorted {
         if (len == 1) return 0;
         int start = 0;
         int end = len - 1;
-        while (start < end) {
+        while (start <= end) {
             int mid = start + (end - start) / 2;
             int midVal = nums[mid];
             if (midVal > nums[mid + 1]) {
@@ -75,9 +75,12 @@ public class SearchOnRotatedSorted {
     public static void main(String[] args) {
 
 
-        int[] nums = {8,0,1,2,3,4};
+        int[] nums = {8,1,2};
+
+
 
         SearchOnRotatedSorted pr = new SearchOnRotatedSorted();
+        System.out.println(pr.findPeakIndex(nums));
         System.out.println(pr.search(nums,0));
 
 
