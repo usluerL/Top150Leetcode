@@ -5,6 +5,19 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
 
+
+
+             /*
+Problem No: 73
+Problem Title: Set Matrix Zero
+Difficulty: Medium
+URL: https://leetcode.com/problems/set-matrix-zeroes/?envType=study-plan-v2&envId=top-interview-150
+
+Trick: Keep a boolean array and update rows and cols if field is "false" space complexity O(m*n)
+ps: follow up another in another class
+
+                 */
+
 public class SetZero {
 
     List<ArrayList<Boolean>> checkList = new ArrayList<>();
