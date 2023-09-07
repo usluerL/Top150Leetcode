@@ -1,4 +1,4 @@
-public class LengthOfLastWord {
+public class  LengthOfLastWord {
 
             /*
 Problem No: 58
